@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 .container-fluid {
   padding: 0px !important;
 }
@@ -5,6 +11,23 @@
 .page-container {
   min-height: 100vh;
   min-width: 100vw;
+}
+
+/* -------------------------------- Navigation Section ---------------------------- */
+
+.navbar-toggle {
+  float:left !important;
+  margin-left: 15px;
+  margin-right: none !important;
+}
+
+.cart-icon {
+  float:right;
+  margin-right:15px;
+}
+
+.cart-nav {
+  margin-right:0px !important;
 }
 
 /* -------------------------------- Front Page Section ---------------------------- */
