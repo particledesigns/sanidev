@@ -10,6 +10,9 @@
   min-width: 100vw; }
 
 /* -------------------------------- Navigation Section ---------------------------- */
+.navbar {
+  margin-bottom: 0px !important; }
+
 .navbar-toggle {
   float: left !important;
   margin-left: 15px;
