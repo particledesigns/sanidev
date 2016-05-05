@@ -1,5 +1,10 @@
-html {
+html, body, div{
   width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 @font-face {
@@ -29,9 +34,13 @@ html {
   margin-right: none !important;
 }
 
+.navbar-header {
+  margin: 0px !important;
+}
+
 .cart-icon {
   float:right;
-  margin-right:15px;
+  margin-right:0px;
 }
 
 .cart-nav {
