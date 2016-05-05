@@ -8,6 +8,11 @@ html, body, div{
 }
 
 @font-face {
+  font-family: 'SemplicitaPro-Regular';
+  src: url('fonts/SemplicitaPro-Regular.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('fonts/glyphicons-halflings-regular.eot');
   src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
@@ -26,6 +31,19 @@ html, body, div{
 
 .navbar {
   margin-bottom: 0px !important;
+  font-family: 'SemplicitaPro-Regular';
+}
+
+#myNavbar {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.navbar-brand {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 50%;
+  height:55px !important;
 }
 
 .navbar-toggle {
@@ -41,10 +59,11 @@ html, body, div{
 .cart-icon {
   float:right;
   margin-right:0px;
+  margin-top:7.5px;
 }
 
 .cart-nav {
-  margin-right:0px !important;
+  margin:0px !important;
 }
 
 /* -------------------------------- Front Page Section ---------------------------- */
