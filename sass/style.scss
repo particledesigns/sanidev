@@ -14,3 +14,18 @@
 
 /* -------------------------------- Contact Section ---------------------------- */
 
+#white-part {
+  min-height: 50vh;
+  min-width: 100vw;
+  background-color: #ff3;
+  z-index: -5000;
+
+}
+
+#black-part {
+  min-height: 50vh;
+  min-width: 100vh;
+  background-color: #222;
+  z-index: -5000;
+  position: absolute;
+}
