@@ -17,6 +17,10 @@ html, body, div{
   padding: 0px !important;
 }
 
+.row {
+  margin: 0px !important;
+}
+
 .page-container {
   min-height: 100vh;
   min-width: 100vw;
@@ -68,4 +72,14 @@ html, body, div{
   min-height: 50vh;
   min-width: 100%;
   background-color: #222;
+}
+
+.contact-card {
+  color:white;
+  padding-top: 2em;
+}
+
+.contact-card h4{
+  font: bold;
+  padding-bottom: 0.2em;
 }
