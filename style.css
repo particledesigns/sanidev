@@ -24,6 +24,9 @@
 
 /* -------------------------------- Front Page Section ---------------------------- */
 /* -------------------------------- Contact Section ---------------------------- */
+.contact-container {
+  min-width: 100%; }
+
 #white-part {
   min-height: 50vh;
   min-width: 100vw;
@@ -34,7 +37,6 @@
   min-height: 50vh;
   min-width: 100vh;
   background-color: #222;
-  z-index: -5000;
-  position: absolute; }
+  z-index: -5000; }
 
 /*# sourceMappingURL=style.css.map */
