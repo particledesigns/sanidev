@@ -1,6 +1,8 @@
 *.log
 .htaccess
 .idea
+style.css
+style.css.map
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
