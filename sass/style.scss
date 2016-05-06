@@ -123,20 +123,13 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
   min-width: 100%;
 }
 
-#white-part {
+/*#white-part {
   min-height: 50vh;
   min-width: 100%;
-  background-color: #ff3;
-}
-
-#black-part {
-  min-height: 50vh;
-  min-width: 100%;
-  background-color: #222;
-}
+  background-color: #fff;
+}*/
 
 .contact-card {
-  color:white;
   padding-top: 2em;
 }
 
@@ -163,5 +156,5 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .contact-info {
   font-family: $font-regular;
-  padding-top: 3em;
+  padding-top: 1.5em;
 }
