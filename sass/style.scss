@@ -109,12 +109,46 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 /* -------------------------------- Front Page Section ---------------------------- */
 
-.img-front {
-  min-height: 90vh;
-  display: block;
-  overflow: hidden;
-  max-width: 100%;
+.front-page-container {
+  background-color: #f4f4f4;
+  h2 {
+    font-size: 11pt;
+    font-family: $font-semibold;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+  }
+  img {
+    max-width: 100%;
+  }
+  .products {
+    margin-top: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+#fp-footer {
   min-width: 100%;
+  padding-bottom: 40px !important;
+  padding-top: 15px !important;
+  background-image: url("img/2.png");
+  background-size: 300%;
+  background-position: bottom;
+}
+
+.fp-footer-details {
+  font-family: $font-regular;
+  padding-top: 1em;
+  margin-bottom: 5px;
+  font-size: 7pt;
+
+  p {
+    margin: 0px;
+    color: white;
+  }
 }
 
 /* -------------------------------- Contact Section ---------------------------- */
