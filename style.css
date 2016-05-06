@@ -171,33 +171,13 @@ html, body, div {
   padding: 0px 10px !important; }
   .product-container img {
     margin-top: 10px; }
-  .product-container h2, .product-container h3, .product-container h4 {
-    font-family: "SemplicitaPro-Semibold"; }
-  .product-container h2 {
-    font-size: 13pt; }
-  .product-container h3 {
-    font-size: 11pt;
-    margin-bottom: 0px !important; }
-  .product-container h4 {
-    font-size: 6pt;
-    margin-bottom: 0px !important; }
-  .product-container p {
-    font-family: "SemplicitaPro-Light" !important;
-    font-size: 6pt; }
-  .product-container .product-p-large {
-    font-size: 9pt !important; }
-  .product-container .product-info p {
-    margin-bottom: 0px !important; }
 
 .product-img-container {
   border-bottom: 2px black solid; }
-  .product-img-container ul {
-    margin: 15px 0px; }
-    .product-img-container ul li {
-      display: inline-block !important;
-      font-family: "SemplicitaPro-Light";
-      font-size: 6.5pt;
-      color: #c0beb9; }
+  .product-img-container ul li {
+    display: inline-block;
+    font-family: "SemplicitaPro-Light";
+    color: #c0beb9; }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */
 .terms-text {
