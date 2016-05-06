@@ -239,14 +239,42 @@ $productListColor: #c0beb9;
   img {
     margin-top: 10px;
   }
+  h2, h3, h4 {
+    font-family: $font-semibold;
+  }
+  h2 {
+    font-size: 13pt;
+  }
+  h3 {
+    font-size: 11pt;
+    margin-bottom: 0px !important;
+  }
+  h4 {
+    font-size: 6pt;
+    margin-bottom: 0px !important;
+  }
+  p {
+    font-family: $font-light !important;
+    font-size: 6pt;
+  }
+  .product-p-large {
+    font-size: 9pt !important;
+  }
+  .product-info {
+    p {
+      margin-bottom: 0px !important;
+    }
+  }
 }
 
 .product-img-container {
   border-bottom: 2px black solid;
   ul {
+    margin: 15px 0px;
     li {
-      display: inline-block;
+      display: inline-block !important;
       font-family: $font-light;
+      font-size: 6.5pt;
       color: $productListColor;
     }
   }
