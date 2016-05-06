@@ -273,6 +273,9 @@ $productListColor: #c0beb9;
     p {
       color: $productListColor !important;
     }
+    .active-item {
+      color: black !important;
+    }
   }
 }
 
@@ -287,6 +290,12 @@ $productListColor: #c0beb9;
       color: $productListColor;
     }
   }
+}
+
+/* -------------------------------- Order Page ---------------------------- */
+
+.order-page-container {
+
 }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */

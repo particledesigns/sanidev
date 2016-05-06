@@ -193,6 +193,8 @@ html, body, div {
     margin-bottom: 0px !important; }
   .product-container .product-info-grey p {
     color: #c0beb9 !important; }
+  .product-container .product-info-grey .active-item {
+    color: black !important; }
 
 .product-img-container {
   border-bottom: 2px black solid; }
@@ -204,6 +206,7 @@ html, body, div {
       font-size: 6.5pt;
       color: #c0beb9; }
 
+/* -------------------------------- Order Page ---------------------------- */
 /* -------------------------------- Terms amd Conditions ---------------------------- */
 .terms-text {
   font-family: "SemplicitaPro-Regular"; }
