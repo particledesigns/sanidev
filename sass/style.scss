@@ -109,8 +109,13 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 /* -------------------------------- Front Page Section ---------------------------- */
 
-
-
+.img-front {
+  min-height: 90vh;
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 100%;
+}
 
 /* -------------------------------- Contact Section ---------------------------- */
 

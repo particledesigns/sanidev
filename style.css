@@ -70,6 +70,13 @@ html, body, div {
   margin: 0px !important; }
 
 /* -------------------------------- Front Page Section ---------------------------- */
+.img-front {
+  min-height: 90vh;
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 100%; }
+
 /* -------------------------------- Contact Section ---------------------------- */
 .contact-container {
   min-width: 100%; }
