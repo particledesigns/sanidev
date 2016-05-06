@@ -295,7 +295,84 @@ $productListColor: #c0beb9;
 /* -------------------------------- Order Page ---------------------------- */
 
 .order-page-container {
+  background-color: $pageBG;
+  min-height: 90vh;
+  padding: 0px 10px !important;
+  padding-bottom: 40px !important;
+  h3 {
+    font-size: 8pt;
+    display: inline-block !important;
+    margin-bottom: 20px !important;
+  }
+  h4 {
+    font-family: $font-semibold;
+    font-size: 6pt;
+    margin-bottom: 0px !important;
+  }
+  .regular {
+    font-family: $font-regular;
+    float: left;
+  }
+  .semibold {
+    font-family: $font-semibold;
+    float: right;
+  }
+}
 
+.order-progress, .order-info-container {
+  padding: 0px !important;
+}
+
+.order-info-container {
+  div, h3 {
+    padding: 0px !important;
+  }
+}
+
+.order-progress {
+  ul {
+    padding-bottom: 25px !important;
+    padding-top: 20px !important;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+    border-bottom: 2px black solid;
+    li {
+      display: inline-block !important;
+      min-width: 25%;
+      float: left;
+      a {
+        display: block !important;
+        font-family: $font-light;
+        font-size: 6pt;
+        color: $productListColor;
+      }
+    }
+  }
+  .active-item {
+    color: black !important;
+    font-family: $font-semibold;
+  }
+}
+
+.order-product-info {
+  max-width: 33%;
+  p {
+    font-family: $font-light;
+    font-size: 4pt;
+  }
+}
+
+.order-payment-container {
+  margin-top: 10px !important;
+  padding: 0px !important;
+  div {
+    padding: 0px !important;
+  }
+  p {
+    font-family: $font-light;
+    font-size: 7pt;
+    margin: 0px !important;
+  }
 }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */
