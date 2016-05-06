@@ -197,6 +197,7 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .contact-headline {
   font-family: $font-semibold;
+  padding-bottom: 1em;
 }
 
 .contact-details {
@@ -229,4 +230,25 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .terms-text {
   font-family: $font-regular;
+}
+
+.terms-headline {
+  font-family: $font-semibold;
+  padding-bottom: 1em;
+
+}
+
+/*.terms-details {
+  font-family: $font-regular;
+  padding-top: 1em;
+  margin-bottom: 5px;
+
+
+  p {
+    margin: 0px;
+  }
+}*/
+
+.terms-returns {
+  padding-top: 2.5em;
 }

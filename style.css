@@ -140,7 +140,8 @@ html, body, div {
   min-width: 100%; }
 
 .contact-headline {
-  font-family: "SemplicitaPro-Semibold"; }
+  font-family: "SemplicitaPro-Semibold";
+  padding-bottom: 1em; }
 
 .contact-details {
   font-family: "SemplicitaPro-Regular";
@@ -164,5 +165,22 @@ html, body, div {
 /* -------------------------------- Terms amd Conditions ---------------------------- */
 .terms-text {
   font-family: "SemplicitaPro-Regular"; }
+
+.terms-headline {
+  font-family: "SemplicitaPro-Semibold";
+  padding-bottom: 1em; }
+
+/*.terms-details {
+  font-family: $font-regular;
+  padding-top: 1em;
+  margin-bottom: 5px;
+
+
+  p {
+    margin: 0px;
+  }
+}*/
+.terms-returns {
+  padding-top: 2.5em; }
 
 /*# sourceMappingURL=style.css.map */
