@@ -28,7 +28,6 @@ html, body, div {
   font-family: 'Glyphicons Halflings';
   src: url("fonts/glyphicons-halflings-regular.eot");
   src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons-halflings-regular.woff") format("woff"), url("fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg"); }
-/* -------------------------------- Globals & Color ---------------------------- */
 .container-fluid {
   padding: 0px !important; }
 
@@ -141,7 +140,8 @@ html, body, div {
   min-width: 100%; }
 
 .contact-headline {
-  font-family: "SemplicitaPro-Semibold"; }
+  font-family: "SemplicitaPro-Semibold";
+  padding-bottom: 1em; }
 
 .contact-details {
   font-family: "SemplicitaPro-Regular";
@@ -162,20 +162,25 @@ html, body, div {
   font-family: "SemplicitaPro-Regular";
   padding-top: 1.5em; }
 
-/* -------------------------------- Contact Section ---------------------------- */
-.product-container {
-  background-color: #f4f4f4;
-  min-width: 100vw;
-  min-height: 100vh;
-  padding: 0px 10px !important; }
-  .product-container img {
-    margin-top: 10px; }
+/* -------------------------------- Terms amd Conditions ---------------------------- */
+.terms-text {
+  font-family: "SemplicitaPro-Regular"; }
 
-.product-img-container {
-  border-bottom: 2px black solid; }
-  .product-img-container ul li {
-    display: inline-block;
-    font-family: "SemplicitaPro-Light";
-    color: #c0beb9; }
+.terms-headline {
+  font-family: "SemplicitaPro-Semibold";
+  padding-bottom: 1em; }
+
+/*.terms-details {
+  font-family: $font-regular;
+  padding-top: 1em;
+  margin-bottom: 5px;
+
+
+  p {
+    margin: 0px;
+  }
+}*/
+.terms-returns {
+  padding-top: 2.5em; }
 
 /*# sourceMappingURL=style.css.map */
