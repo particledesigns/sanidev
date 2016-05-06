@@ -107,14 +107,6 @@ html, body, div {
 .contact-container {
   min-width: 100%; }
 
-/*#white-part {
-  min-height: 50vh;
-  min-width: 100%;
-  background-color: #fff;
-}*/
-.contact-card {
-  padding-top: 2em; }
-
 .contact-headline {
   font-family: "SemplicitaPro-Semibold"; }
 
@@ -124,6 +116,9 @@ html, body, div {
   margin-bottom: 5px; }
   .contact-details p {
     margin: 0px; }
+
+.contact-card {
+  padding-top: 2em; }
 
 .contact-name {
   font-family: "SemplicitaPro-SemiboldItalic";

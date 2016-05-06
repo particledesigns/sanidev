@@ -157,16 +157,6 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
   min-width: 100%;
 }
 
-/*#white-part {
-  min-height: 50vh;
-  min-width: 100%;
-  background-color: #fff;
-}*/
-
-.contact-card {
-  padding-top: 2em;
-}
-
 .contact-headline {
   font-family: $font-semibold;
 }
@@ -180,6 +170,10 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
   p {
     margin: 0px;
   }
+}
+
+.contact-card {
+  padding-top: 2em;
 }
 
 .contact-name {
