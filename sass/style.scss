@@ -334,14 +334,44 @@ $productListColor: #c0beb9;
   min-height: 100vh;
 }
 
-#white-part {
+.white-part {
   min-height: 50vh;
-  color:white;
+  background-color: white;
+  color:black;
 }
 
+.newsletter-headline {
+  font-family: $font-semibold;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+}
+
+/*#input-field {
+  padding-top: 15vh;
+}*/
+
+#field {
+  border: white solid 3px;
+  background-color: transparent;
+}
+
+/* TO BE CONTINUED */
 
 
+/* -------------------------------- Newsletter ---------------------------- */
 
+.newsletter-headline {
+  font-family: $font-semibold;
+  font-size: 12pt;
+  padding-top: 5em;
+}
+
+.social-links {
+  font-family: $font-regular;
+  font-size: 12pt;
+  padding-top: 5em;
+  color: white;
+}
 
 
 
