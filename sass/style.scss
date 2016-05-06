@@ -195,23 +195,6 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
   min-width: 100%;
 }
 
-#white-part {
-  min-height: 50vh;
-  min-width: 100%;
-  background-color: #ff3;
-}
-
-#black-part {
-  min-height: 50vh;
-  min-width: 100%;
-  background-color: #222;
-}
-
-.contact-card {
-  color:white;
-  padding-top: 2em;
-}
-
 .contact-headline {
   font-family: $font-semibold;
 }
@@ -227,6 +210,10 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
   }
 }
 
+.contact-card {
+  padding-top: 2em;
+}
+
 .contact-name {
   font-family: $font-semibolditalic;
   font-size: 0.55em;
@@ -235,5 +222,5 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .contact-info {
   font-family: $font-regular;
-  padding-top: 3em;
+  padding-top: 1.5em;
 }
