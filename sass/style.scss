@@ -148,6 +148,10 @@ $productListColor: #c0beb9;
   margin:0px !important;
 }
 
+.affix {
+  z-index: 10 !important;
+}
+
 /* -------------------------------- Front Page Section ---------------------------- */
 
 .front-page-container {
@@ -263,6 +267,11 @@ $productListColor: #c0beb9;
   .product-info {
     p {
       margin-bottom: 0px !important;
+    }
+  }
+  .product-info-grey {
+    p {
+      color: $productListColor !important;
     }
   }
 }
