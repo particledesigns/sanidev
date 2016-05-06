@@ -5,9 +5,25 @@ html, body, div {
   margin: 0px;
   padding: 0px; }
 
+/* -------------------------------------------- FONTS ------------------------------- */
+@font-face {
+  font-family: 'SemplicitaPro-Bold';
+  src: url("fonts/SemplicitaPro-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: 'SemplicitaPro-Light';
+  src: url("fonts/SemplicitaPro-Light.otf") format("opentype"); }
+@font-face {
+  font-family: 'SemplicitaPro-Medium';
+  src: url("fonts/SemplicitaPro-Medium.otf") format("opentype"); }
 @font-face {
   font-family: 'SemplicitaPro-Regular';
   src: url("fonts/SemplicitaPro-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: 'SemplicitaPro-Semibold';
+  src: url("fonts/SemplicitaPro-Semibold.otf") format("opentype"); }
+@font-face {
+  font-family: 'SemplicitaPro-SemiboldItalic';
+  src: url("fonts/SemplicitaPro-SemiboldItalic.otf") format("opentype"); }
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("fonts/glyphicons-halflings-regular.eot");
@@ -72,8 +88,16 @@ html, body, div {
   color: white;
   padding-top: 2em; }
 
-.contact-card h4 {
-  font: bold;
-  padding-bottom: 0.2em; }
+.contact-headline {
+  font-family: "SemplicitaPro-Semibold"; }
+
+.contact-name {
+  font-family: "SemplicitaPro-SemiboldItalic";
+  font-size: 0.55em;
+  padding-top: 3em; }
+
+.contact-info {
+  font-family: "SemplicitaPro-Regular";
+  padding-top: 3em; }
 
 /*# sourceMappingURL=style.css.map */
