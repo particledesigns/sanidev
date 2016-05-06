@@ -296,7 +296,6 @@ $productListColor: #c0beb9;
 
 .order-page-container {
   background-color: $pageBG;
-  min-height: 90vh;
   padding: 0px 10px !important;
   padding-bottom: 40px !important;
   h3 {
@@ -373,6 +372,12 @@ $productListColor: #c0beb9;
     font-size: 7pt;
     margin: 0px !important;
   }
+}
+
+/* -------------------------------- Billing Page ---------------------------- */
+
+.billing-page-container {
+  @extend .order-page-container;
 }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */
