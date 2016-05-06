@@ -72,7 +72,7 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .navbar {
   margin-bottom: 0px !important;
-  font-family: 'SemplicitaPro-Regular';
+  font-family: $font-regular;
 }
 
 #myNavbar {
@@ -137,6 +137,17 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
 .contact-headline {
   font-family: $font-semibold;
+}
+
+.contact-details {
+  font-family: $font-regular;
+  padding-top: 1em;
+  margin-bottom: 5px;
+
+
+  p {
+    margin: 0px;
+  }
 }
 
 .contact-name {
