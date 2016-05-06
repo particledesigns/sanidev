@@ -207,23 +207,22 @@ html, body, div {
       color: #c0beb9; }
 
 /* -------------------------------- Order Page ---------------------------- */
-.order-page-container {
+.order-page-container, .billing-page-container {
   background-color: #f4f4f4;
-  min-height: 90vh;
   padding: 0px 10px !important;
   padding-bottom: 40px !important; }
-  .order-page-container h3 {
+  .order-page-container h3, .billing-page-container h3 {
     font-size: 8pt;
     display: inline-block !important;
     margin-bottom: 20px !important; }
-  .order-page-container h4 {
+  .order-page-container h4, .billing-page-container h4 {
     font-family: "SemplicitaPro-Semibold";
     font-size: 6pt;
     margin-bottom: 0px !important; }
-  .order-page-container .regular {
+  .order-page-container .regular, .billing-page-container .regular {
     font-family: "SemplicitaPro-Regular";
     float: left; }
-  .order-page-container .semibold {
+  .order-page-container .semibold, .billing-page-container .semibold {
     font-family: "SemplicitaPro-Semibold";
     float: right; }
 
@@ -267,6 +266,36 @@ html, body, div {
     font-family: "SemplicitaPro-Light";
     font-size: 7pt;
     margin: 0px !important; }
+
+/* -------------------------------- Billing Page ---------------------------- */
+.billing-page-container div {
+  padding: 0px !important; }
+.billing-page-container .billing-shipping {
+  font-family: "SemplicitaPro-Medium";
+  font-size: 6pt;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important; }
+  .billing-page-container .billing-shipping p {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px; }
+  .billing-page-container .billing-shipping h4 {
+    margin-bottom: 20px !important; }
+.billing-page-container .billing-delivery {
+  font-family: "SemplicitaPro-Light";
+  font-size: 6pt; }
+.billing-page-container .billing-info p {
+  font-family: "SemplicitaPro-Medium";
+  font-size: 6pt;
+  margin-bottom: 0px !important;
+  margin-top: 5px; }
+.billing-page-container .billing-info input {
+  border: none;
+  height: 15px;
+  width: 83.33333%; }
+.billing-page-container .billing-info-right div {
+  display: inline-block;
+  width: 40%; }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */
 .terms-text {

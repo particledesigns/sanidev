@@ -296,7 +296,6 @@ $productListColor: #c0beb9;
 
 .order-page-container {
   background-color: $pageBG;
-  min-height: 90vh;
   padding: 0px 10px !important;
   padding-bottom: 40px !important;
   h3 {
@@ -372,6 +371,52 @@ $productListColor: #c0beb9;
     font-family: $font-light;
     font-size: 7pt;
     margin: 0px !important;
+  }
+}
+
+/* -------------------------------- Billing Page ---------------------------- */
+
+.billing-page-container {
+  @extend .order-page-container;
+  div {
+    padding: 0px !important;
+  }
+  .billing-shipping {
+    font-family: $font-medium;
+    font-size: 6pt;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    p {
+      vertical-align: middle;
+      display: inline-block;
+      margin-left: 10px;
+    }
+    h4 {
+      margin-bottom: 20px !important;
+    }
+  }
+  .billing-delivery {
+    font-family: $font-light;
+    font-size: 6pt;
+  }
+  .billing-info {
+    p {
+      font-family: $font-medium;
+      font-size: 6pt;
+      margin-bottom: 0px !important;
+      margin-top: 5px;
+    }
+    input {
+      border: none;
+      height: 15px;
+      width: 10 / 12 * 100%;
+    }
+  }
+  .billing-info-right {
+    div {
+      display: inline-block;
+      width: 4.8 / 12 * 100%;
+    }
   }
 }
 
