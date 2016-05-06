@@ -378,6 +378,46 @@ $productListColor: #c0beb9;
 
 .billing-page-container {
   @extend .order-page-container;
+  div {
+    padding: 0px !important;
+  }
+  .billing-shipping {
+    font-family: $font-medium;
+    font-size: 6pt;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    p {
+      vertical-align: middle;
+      display: inline-block;
+      margin-left: 10px;
+    }
+    h4 {
+      margin-bottom: 20px !important;
+    }
+  }
+  .billing-delivery {
+    font-family: $font-light;
+    font-size: 6pt;
+  }
+  .billing-info {
+    p {
+      font-family: $font-medium;
+      font-size: 6pt;
+      margin-bottom: 0px !important;
+      margin-top: 5px;
+    }
+    input {
+      border: none;
+      height: 15px;
+      width: 10 / 12 * 100%;
+    }
+  }
+  .billing-info-right {
+    div {
+      display: inline-block;
+      width: 4.8 / 12 * 100%;
+    }
+  }
 }
 
 /* -------------------------------- Terms amd Conditions ---------------------------- */
