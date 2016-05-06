@@ -53,7 +53,10 @@ $font-regular: 'SemplicitaPro-Regular';
 $font-semibold: 'SemplicitaPro-Semibold';
 $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 
+/* -------------------------------- Globals & Color ---------------------------- */
 
+$pageBG: #f4f4f4;
+$productListColor: #c0beb9;
 
 .container-fluid {
   padding: 0px !important;
@@ -148,7 +151,7 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 /* -------------------------------- Front Page Section ---------------------------- */
 
 .front-page-container {
-  background-color: #f4f4f4;
+  background-color: $pageBG;
   h2 {
     font-size: 11pt;
     font-family: $font-semibold;
@@ -223,4 +226,27 @@ $font-semibolditalic: 'SemplicitaPro-SemiboldItalic';
 .contact-info {
   font-family: $font-regular;
   padding-top: 1.5em;
+}
+
+/* -------------------------------- Contact Section ---------------------------- */
+
+.product-container {
+  background-color: $pageBG;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0px 10px !important;
+  img {
+    margin-top: 10px;
+  }
+}
+
+.product-img-container {
+  border-bottom: 2px black solid;
+  ul {
+    li {
+      display: inline-block;
+      font-family: $font-light;
+      color: $productListColor;
+    }
+  }
 }
