@@ -273,6 +273,9 @@ $productListColor: #c0beb9;
     p {
       color: $productListColor !important;
     }
+    .active-item {
+      color: black !important;
+    }
   }
 }
 
