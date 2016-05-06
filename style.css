@@ -207,6 +207,67 @@ html, body, div {
       color: #c0beb9; }
 
 /* -------------------------------- Order Page ---------------------------- */
+.order-page-container {
+  background-color: #f4f4f4;
+  min-height: 90vh;
+  padding: 0px 10px !important;
+  padding-bottom: 40px !important; }
+  .order-page-container h3 {
+    font-size: 8pt;
+    display: inline-block !important;
+    margin-bottom: 20px !important; }
+  .order-page-container h4 {
+    font-family: "SemplicitaPro-Semibold";
+    font-size: 6pt;
+    margin-bottom: 0px !important; }
+  .order-page-container .regular {
+    font-family: "SemplicitaPro-Regular";
+    float: left; }
+  .order-page-container .semibold {
+    font-family: "SemplicitaPro-Semibold";
+    float: right; }
+
+.order-progress, .order-info-container {
+  padding: 0px !important; }
+
+.order-info-container div, .order-info-container h3 {
+  padding: 0px !important; }
+
+.order-progress ul {
+  padding-bottom: 25px !important;
+  padding-top: 20px !important;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+  border-bottom: 2px black solid; }
+  .order-progress ul li {
+    display: inline-block !important;
+    min-width: 25%;
+    float: left; }
+    .order-progress ul li a {
+      display: block !important;
+      font-family: "SemplicitaPro-Light";
+      font-size: 6pt;
+      color: #c0beb9; }
+.order-progress .active-item {
+  color: black !important;
+  font-family: "SemplicitaPro-Semibold"; }
+
+.order-product-info {
+  max-width: 33%; }
+  .order-product-info p {
+    font-family: "SemplicitaPro-Light";
+    font-size: 4pt; }
+
+.order-payment-container {
+  margin-top: 10px !important;
+  padding: 0px !important; }
+  .order-payment-container div {
+    padding: 0px !important; }
+  .order-payment-container p {
+    font-family: "SemplicitaPro-Light";
+    font-size: 7pt;
+    margin: 0px !important; }
+
 /* -------------------------------- Terms amd Conditions ---------------------------- */
 .terms-text {
   font-family: "SemplicitaPro-Regular"; }
